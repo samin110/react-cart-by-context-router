@@ -1,0 +1,75 @@
+.cartItemList {
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+}
+
+.cartItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.cartItem .itemImage {
+  width: 100px;
+  height: 100px;
+}
+
+.cartItem .itemImage img {
+  width: 100%;
+  height: auto;
+}
+
+.cartOrder {
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  flex-direction: column;
+  margin-right: 2rem;
+  width: 30%;
+  padding: 1rem;
+}
+
+.cartCenter {
+  display: flex;
+  max-width: 1170px;
+  width: 90vw;
+  justify-content: center;
+}
+
+.orderPrice {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.btnGroup button {
+  outline: none;
+  padding: 3px 8px;
+  border: 1.8px solid rgb(135, 230, 233);
+  border-radius: 4px;
+  margin-left: 2px;
+  cursor: pointer;
+  font-family: inherit;
+  color: rgb(2, 0, 107);
+  font-size: 15px;
+}
+
+.btnCheckout {
+  margin-top: 20px;
+  background-color: rgb(13, 242, 250);
+  padding: 5px;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  width: 100%;
+}

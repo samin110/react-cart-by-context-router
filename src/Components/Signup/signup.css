@@ -1,0 +1,59 @@
+label {
+  display: flex;
+  margin-top: 20px;
+  font-weight: 800;
+}
+
+input {
+  width: 400px;
+  padding: 6px 12px;
+  display: block;
+  background-color: #fff;
+  color: #444;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+formControl {
+  margin-top: 5px;
+}
+
+.signupContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+button {
+  margin-top: 10px;
+  padding: 5px 15px;
+}
+.error {
+  color: red;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  width: 400px;
+  padding: 6px 12px;
+  display: block;
+  background-color: #fff;
+  color: #ccc;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btnSubmit {
+  margin-top: 20px;
+  width: 100%;
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 17px;
+  background-color: rgb(64, 169, 238);
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+  background-color: #ccc;
+}
